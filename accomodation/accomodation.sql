@@ -63,10 +63,11 @@ CREATE TABLE `user` (
 -- Dumping data untuk tabel `user`
 --
 
-INSERT INTO `user` (`id_user`, `nama_user`, `usernames`, `passwords`, `level`) VALUES
+INSERT INTO `user` (`id_user`, `nama_user`, `names`, `passwords`, `level`) VALUES
 (9, 'manager', 'manager', 'manager', 1),
 (10, 'admin', 'admin', 'admin', 3),
 (11, 'safira', 'safira', 'student', 2);
+(3, 'swarnna', 'swarnna', 'student', 2);
 
 --
 -- Indexes for dumped tables
