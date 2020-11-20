@@ -49,7 +49,7 @@ include "config/koneksi.php";
                                 </div>
                                 <form class="user" action="login_proses.php" method="POST" enctype="multipart/form-data" >
                                     <div class="form-group">
-                                        <input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="username">
+                                        <input type="text" name="name" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="username">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="password">
